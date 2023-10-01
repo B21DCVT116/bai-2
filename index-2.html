@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- target xác định nơi mở blank mở tab mới self là vẫn mở trang đó -->
+        <a href="https://28tech.com.vn/" target="_blank" title="Đây là 28tech" >28tech</a>
+        <img src="https://28tech.com.vn/assets/img/banner/banner-c-plus-plus.png" width="300px" alt="khóa học c++" />
+        <video controls loop autoplay muted width="720px">
+            <source src = "../bai1/334264198_194970606471405_7183778341993267882_n.mp4" type="video/mp4">
+        </video>
+        <audio controls loop >
+            <source src="audio.mp3"/>
+        </audio>
+        <style>
+            table, tr, th, td {
+                border: 1px solid #960d0d;
+            }
+
+            th, td {
+                padding: 10px;
+            }
+        </style>
+        <table>
+            <thead><!-- xác định phần đầu của bảng -->
+                <tr> <!--xác định 1 hàng-->
+                    <th>STT</th> <!--xác đinh tiêu đề bảng-->
+                    <th>Họ tên</th>
+                    <th>Số điện thoại</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr> 
+                    <td>1</td> 
+                    <td>trần thị a</td>
+                    <td>0000000</td>
+                </tr>
+                <tr> 
+                    <td>2</td> 
+                    <td>trần thị b</td>
+                    <td>0001234</td>
+                </tr>
+                <tr> 
+                    <td>3</td> 
+                    <td>nguyễn văn b</td>
+                    <td>0231231</td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <!-- ví dụ 2 -->
+            <tbody>
+                <tr> <!--hàng 1 -->
+                    <td rowspan="11"><b>TCB</b> </td>
+                    <td>cột 2 </td>
+                    <td colspan="3">cột 3 </td>
+                </tr>
+                <tr><!--hàng 2 -->
+                    <td>cột 2 </td>
+                    <td colspan="3">cột 3 </td>
+                </tr>
+                <tr><!--hàng 3 -->
+                    <td colspan="4">cột 2 </td>
+                </tr>
+                <tr><!--hàng 4 -->
+                    <td>cột 2 </td>
+                    <td colspan="3">cột 3 </td>
+                </tr>
+                <tr><!--hàng 5 -->
+                    <td>cột 2 </td>
+                    <td colspan="3">cột 3 </td>
+                </tr>
+                <tr><!--hàng 6 -->
+                    <td colspan="4">cột 2 </td>
+                </tr>
+                <tr><!--hàng 7 -->
+                    <td>cột 2 </td>
+                    <td>cột 3 </td>
+                    <td>cột 4 </td>
+                    <td>cột 5 </td>
+                </tr>
+                <tr><!--hàng 8 -->
+                    <td>cột 2 </td>
+                    <td>cột 3 </td>
+                    <td>cột 4 </td>
+                    <td>cột 5 </td>
+                </tr>
+                <tr><!--hàng 9 -->
+                    <td>cột 2 </td>
+                    <td>cột 3 </td>
+                    <td>cột 4 </td>
+                    <td>cột 5 </td>
+                </tr>
+                <tr><!--hàng 10 -->
+                    <td>cột 2 </td>
+                    <td>cột 3 </td>
+                    <td>cột 4 </td>
+                    <td>cột 5 </td>
+                </tr>
+                <tr><!--hàng 11 -->
+                    <td colspan=3"">cột 2 </td>
+                    <td>cột 5 </td>
+                </tr>
+            </tbody>
+        </table>
+        <ul>
+            <li>mục 1</li>
+            <li>mục 2</li>
+            <li>mục 3</li>
+            <li>mục 4</li>
+        </ul>
+        <ol type="I">
+            <li>
+                Mục 1
+                <ol type="A">
+                  <li>Mục 1 - 1</li>
+                  <li>Mục 1 - 2</li>
+                </ol>
+              </li>
+              <li>
+                Mục 2
+                <ol type="A">
+                  <li>Mục 2 - 1</li>
+                  <li>Mục 2 - 2</li>
+                  <li>Mục 2 - 3</li>
+                  <li>
+                    Mục 2 - 4
+                    <ol type="i">
+                      <li>Mục 2 - 4 - 1</li>
+                      <li>Mục 2 - 4 - 2</li>
+                      <li>Mục 2 - 4 - 3</li>
+                      <li>Mục 2 - 4 - 4</li>
+                    </ol>
+                  </li>
+                  <li>
+                    Mục 2 - 5
+                    <ol type="i">
+                      <li>Mục 2 - 5 - 1</li>
+                      <li>Mục 2 - 5 - 2</li>
+                    </ol>
+                  </li>
+                  <li>Mục 2 - 6</li>
+                </ol>
+              </li>
+              <li>
+                Mục 3
+                <ol type="A" >
+                    <li>Mục 3 - 1</li>
+                    <li>
+                        Mục 3 - 2
+                        <ol type="i">
+                            <li>Mục 3 - 2 - 1</li>
+                            <li>Mục 3 - 2 - 2</li>
+                            <li>Mục 3 - 2 - 3</li>
+                            <li>Mục 3 - 2 - 4</li>
+                        </ol>
+                    </li>
+                    <li>Mục 3 - 3</li>
+                    <li>Mục 3 - 4</li>
+                    <li>Mục 3 - 5</li>
+                </ol>
+              </li>
+              <li>Mục 4</li>
+              <li>Mục 5</li>
+        </ol>
+    </body>
+</html> 
